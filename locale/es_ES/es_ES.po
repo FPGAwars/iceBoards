@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-29 17:24+0100\n"
+"POT-Creation-Date: 2021-12-29 19:23+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:11 translation.js:31
+#: translation.js:11 translation.js:164
 msgid "01-LEDs-buttons"
 msgstr "01-LEDs-buttons"
 
@@ -87,17 +87,698 @@ msgstr ""
 "otra constante en los LEDs"
 
 #: translation.js:27
+msgid ""
+"# Alhambra-II: LEDs and Buttons test\n"
+"\n"
+"Testing the LEDs and buttons"
+msgstr ""
+
+#: translation.js:28
 msgid "Input"
 msgstr "Entrada"
 
-#: translation.js:28
+#: translation.js:29
 msgid "Output"
 msgstr "Salida"
 
-#: translation.js:29
+#: translation.js:30
 msgid "Channel A"
 msgstr "Canal A"
 
-#: translation.js:30
+#: translation.js:31
 msgid "Channel B"
 msgstr "Canal B"
+
+#: translation.js:32 translation.js:165
+msgid "02-jumping-LED"
+msgstr ""
+
+#: translation.js:33
+msgid "Demultiplexor de 1 bit, de 3 a 8 (salida de bus)"
+msgstr ""
+
+#: translation.js:34
+msgid "Button-tic: Configurable button that emits a tic when it is pressed"
+msgstr ""
+
+#: translation.js:35
+msgid ""
+"Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
+"is detected on the input"
+msgstr ""
+
+#: translation.js:36
+#, fuzzy
+#| msgid "NOT gate (Verilog implementation)"
+msgid "D Flip-flop (verilog implementation)"
+msgstr "Puerta NOT (Implementacion en Verilog)"
+
+#: translation.js:37
+msgid "Configurable button (pull-up on/off. Not on/off)"
+msgstr ""
+
+#: translation.js:38
+msgid "FPGA internal pull-up configuration on the input port"
+msgstr ""
+
+#: translation.js:39
+msgid "Remove the rebound on a mechanical switch"
+msgstr ""
+
+#: translation.js:40
+msgid "1bit register (implemented in verilog)"
+msgstr ""
+
+#: translation.js:41
+msgid "16-bits Syscounter with reset"
+msgstr ""
+
+#: translation.js:42
+msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:43
+msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:44
+msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
+msgstr ""
+
+#: translation.js:45
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus16-Split-quarter: Split the 16-bits bus into four buses of the same size"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:46
+msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
+msgstr "Bus16-Join-quarter: Agrupar los 4 buses iguales en uno de 16-bits"
+
+#: translation.js:47
+msgid "Inc1-16bit: Increment a 16-bits number by one"
+msgstr ""
+
+#: translation.js:48
+msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
+msgstr ""
+
+#: translation.js:49
+#, fuzzy
+#| msgid "Generic: 4-bits generic constant (0-15)"
+msgid "Generic: 16-bits generic constant"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:50
+msgid "Adder-16bits: Adder of two operands of 16 bits"
+msgstr ""
+
+#: translation.js:51
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:52
+msgid "Adder-8bits: Adder of two operands of 8 bits"
+msgstr ""
+
+#: translation.js:53
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:54
+msgid "Adder-4bits: Adder of two operands of 4 bits"
+msgstr ""
+
+#: translation.js:55
+msgid "Adder-1bit: Adder of two operands of 1 bit"
+msgstr ""
+
+#: translation.js:56
+msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
+msgstr ""
+
+#: translation.js:57
+#, fuzzy
+#| msgid "OR2: Two bits input OR gate"
+msgid "XOR gate: two bits input xor gate"
+msgstr "OR2: Puerta OR de 2 entradas de 1 bit"
+
+#: translation.js:58
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:59
+msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
+msgstr ""
+
+#: translation.js:60
+msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
+msgstr ""
+
+#: translation.js:61
+msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
+msgstr "Bus16-Join-half: Agrupas las dos partes iguales en un bus de 16-bits"
+
+#: translation.js:62
+msgid ""
+"Edges detector. It generates a 1-period pulse (tic) when either a rising "
+"edge or a falling edge is detected on the input"
+msgstr ""
+
+#: translation.js:63
+msgid "Sync 1-bit input with the system clock domain"
+msgstr ""
+
+#: translation.js:64
+msgid ""
+"Select positive or negative logic for the input (0=positive, 1=negative)"
+msgstr ""
+
+#: translation.js:65
+msgid "1-bit generic constant (0/1)"
+msgstr "Constante genérica de 1-bits (0/1)"
+
+#: translation.js:66
+msgid ""
+"sysclk_divN_24bits: Generate a signal from the division of the system clock "
+"by N. (24-bits precision) (N = 2,3,4,..,0x1000000))"
+msgstr ""
+
+#: translation.js:67
+msgid ""
+"Generic: 24-bits k-1 constant (Input values: 1,2,...,h1000000). It returns "
+"the value input by the user minus 1. Outputs: 0,1,2,...,FFFFFF"
+msgstr ""
+
+#: translation.js:68
+msgid "Comp2-24bit: Comparator of two 24-bit numbers"
+msgstr ""
+
+#: translation.js:69
+msgid "Comp2-8bit: Comparator of two 8-bit numbers"
+msgstr ""
+
+#: translation.js:70
+msgid "Comp2-4bit: Comparator of two 4-bit numbers"
+msgstr ""
+
+#: translation.js:71
+msgid "Comp2-1bit: Comparator of two 1-bit numbers"
+msgstr ""
+
+#: translation.js:72
+#, fuzzy
+#| msgid "Two bits input And gate"
+msgid "Three bits input And gate"
+msgstr "Puerta AND de dos bits de entrada"
+
+#: translation.js:73
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus24-Split-one-third: Split the 24-bits bus into three buses of  the same "
+"size"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:74
+msgid "24-bits Syscounter with reset"
+msgstr ""
+
+#: translation.js:75
+msgid "DFF-rst-x24: 24 D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:76
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus24-Join-one-third: Join the three buses into an 24-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:77
+msgid "DFF-rst-x08: Eight D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:78
+msgid "Inc1-24bit: Increment a 24-bits number by one"
+msgstr ""
+
+#: translation.js:79
+msgid "AdderK-24bit: Adder of 24-bit operand and 24-bit constant"
+msgstr ""
+
+#: translation.js:80
+#, fuzzy
+#| msgid "Generic: 4-bits generic constant (0-15)"
+msgid "Generic: 24-bits generic constant"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:81
+msgid "Adder-24bits: Adder of two operands of 24 bits"
+msgstr ""
+
+#: translation.js:82
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:83
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:84
+msgid "Reg-x08: 8-bits register"
+msgstr ""
+
+#: translation.js:85
+msgid "Reg-x04: 4-bits register"
+msgstr ""
+
+#: translation.js:86
+msgid "Reg: 1-Bit register"
+msgstr ""
+
+#: translation.js:87
+msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
+msgstr "Multiplexor de 2 a 1 (canales de 1 bit). Versión invertida"
+
+#: translation.js:88
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus8-Split-3-5: Split the 8-bits bus into two buses of 3 and 5 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:89
+msgid "Registro de 8 bits"
+msgstr ""
+
+#: translation.js:90
+#, fuzzy
+#| msgid "Generic: 4-bits generic constant (0-15)"
+msgid "Generic: 8-bits generic constant (0-255)"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:91
+msgid "2-to-1 Multplexer (8-bit channels)"
+msgstr "Multiplexor de 2 a 1 (canales de 8 bits)"
+
+#: translation.js:92
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus8-Split-half: Split the 8-bits bus into two buses of 1 and 7 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:93
+msgid "RS-FF-set. RS Flip-flop with priority set"
+msgstr ""
+
+#: translation.js:94
+msgid "8bits constant value: 0"
+msgstr ""
+
+#: translation.js:95
+msgid "## Display the position of the particle on the LEDs"
+msgstr "### Mostrar la posicion de la partícula en los LEDs"
+
+#: translation.js:96
+msgid "3-8 Demux"
+msgstr ""
+
+#: translation.js:97
+msgid "Particle position"
+msgstr ""
+
+#: translation.js:98
+msgid ""
+"Only one LED is ON  \n"
+"at a time"
+msgstr ""
+
+#: translation.js:99
+msgid "Next position"
+msgstr ""
+
+#: translation.js:100
+msgid "50Hz signal"
+msgstr ""
+
+#: translation.js:101
+msgid ""
+"Jump state:\n"
+"* 0: Not jumping\n"
+"* 1: Jumping"
+msgstr ""
+
+#: translation.js:102
+msgid ""
+"50Hz signal that is  \n"
+"only active during the jump"
+msgstr ""
+
+#: translation.js:103
+msgid ""
+"Boton pressed and  \n"
+"the state is NOT jumping"
+msgstr ""
+
+#: translation.js:104
+msgid "## Update signal generator"
+msgstr ""
+
+#: translation.js:105
+msgid "## State Machine"
+msgstr ""
+
+#: translation.js:106
+msgid "Pos == 0"
+msgstr ""
+
+#: translation.js:107
+msgid "Vel < 0"
+msgstr ""
+
+#: translation.js:108
+msgid ""
+"## Stop condition\n"
+"\n"
+"The jump stos when the position is 0 and the velocity es negative "
+msgstr ""
+
+#: translation.js:109
+msgid ""
+"Start signal: The jump  \n"
+"starts now!"
+msgstr ""
+
+#: translation.js:110
+msgid "Particle Acceleration"
+msgstr ""
+
+#: translation.js:111
+msgid "## Particle acceleration"
+msgstr ""
+
+#: translation.js:112
+msgid "Initial acceleration"
+msgstr ""
+
+#: translation.js:113
+msgid "Particle velocity"
+msgstr ""
+
+#: translation.js:114
+msgid "Initial velocity"
+msgstr ""
+
+#: translation.js:115
+msgid "Next velocity"
+msgstr ""
+
+#: translation.js:116
+msgid "## Particle velocity"
+msgstr ""
+
+#: translation.js:117
+msgid "## Particle position"
+msgstr ""
+
+#: translation.js:118
+msgid ""
+"# Alhambra II: JUMPING LED\n"
+"\n"
+"When the button is pressed a particle moves up and down,   \n"
+"simulating a jump (with gravity). The particle is shown  \n"
+"on the LEDs"
+msgstr ""
+
+#: translation.js:119
+msgid "System clock"
+msgstr ""
+
+#: translation.js:120
+msgid "Button state signal"
+msgstr ""
+
+#: translation.js:121
+msgid "Tic: button pressed"
+msgstr ""
+
+#: translation.js:122
+msgid "Rising edge detector"
+msgstr ""
+
+#: translation.js:123
+msgid "Pull up on/off"
+msgstr ""
+
+#: translation.js:124
+msgid "Not on/off"
+msgstr ""
+
+#: translation.js:125
+msgid ""
+"## Rising edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
+"input signal"
+msgstr ""
+
+#: translation.js:126
+msgid "Input signal"
+msgstr ""
+
+#: translation.js:127
+msgid ""
+"Current signal  \n"
+"state"
+msgstr ""
+
+#: translation.js:128
+msgid ""
+"Signal state in the previous  \n"
+"clock cycle"
+msgstr ""
+
+#: translation.js:129
+msgid ""
+"If the current signal is 1 and its value in  \n"
+"the previous clock cycle was 0, it means  \n"
+"that a rising edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+
+#: translation.js:130
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a rising edge  \n"
+"and its detection"
+msgstr ""
+
+#: translation.js:131
+msgid "Parameter: Initial value"
+msgstr ""
+
+#: translation.js:132
+#, fuzzy
+#| msgid "Input"
+msgid "Input data"
+msgstr "Entrada"
+
+#: translation.js:133
+msgid ""
+"# D Flip-Flop  \n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
+msgstr ""
+
+#: translation.js:134
+msgid ""
+"Internal pull-up  \n"
+"* 0: OFF\n"
+"* 1: ON"
+msgstr ""
+
+#: translation.js:135
+msgid "Synchronization stage"
+msgstr ""
+
+#: translation.js:136
+msgid ""
+"Normalization stage\n"
+"\n"
+"* 0: Wire\n"
+"* 1: signal inverted"
+msgstr ""
+
+#: translation.js:137
+msgid "Debouncing stage"
+msgstr ""
+
+#: translation.js:138
+msgid ""
+"### Pull-up parameter:\n"
+"\n"
+"0: No pull-up  \n"
+"1: Pull-up activated"
+msgstr ""
+
+#: translation.js:139
+msgid ""
+"Only an FPGA pin can  \n"
+"be connected here!!!"
+msgstr ""
+
+#: translation.js:140
+msgid ""
+"The pull-up is connected  \n"
+"by default"
+msgstr ""
+
+#: translation.js:141
+msgid "Edge detector"
+msgstr ""
+
+#: translation.js:142
+msgid ""
+"Whenever there is a change in  \n"
+"the input, the counter is started"
+msgstr ""
+
+#: translation.js:143
+msgid ""
+"If the counter reaches it maximum  \n"
+"value, the input is considered stable  \n"
+"and it is captured"
+msgstr ""
+
+#: translation.js:144
+msgid ""
+"### Time calculation\n"
+"\n"
+"For CLK=12MHZ, a 16-bit counter reaches its  \n"
+"maximum every 2 ** 16 * 1/F = 5.5ms aprox  \n"
+"IF more time is needed for debouncing,  \n"
+"use a counter with more bits (17, 18...)"
+msgstr ""
+
+#: translation.js:145
+msgid ""
+"## Debouncer  \n"
+"\n"
+"A value is considered stable when  \n"
+"there is no changes during 5.5ms  \n"
+"aprox. When a value is stable it is  \n"
+"captured on the output flip-flop"
+msgstr ""
+
+#: translation.js:146
+msgid "Stable output"
+msgstr ""
+
+#: translation.js:147
+msgid "Counter"
+msgstr ""
+
+#: translation.js:148
+msgid "Initial value"
+msgstr ""
+
+#: translation.js:149
+msgid ""
+"Reset input: Active high  \n"
+"When rst = 1, the DFF is reset to 0"
+msgstr ""
+
+#: translation.js:150
+msgid "Data input"
+msgstr ""
+
+#: translation.js:151
+msgid ""
+"Initial default  \n"
+"value: 0"
+msgstr ""
+
+#: translation.js:152
+msgid ""
+"## Edges detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when an edge (Rising or falling) is "
+"detected on the  \n"
+"input signal"
+msgstr ""
+
+#: translation.js:153
+msgid ""
+"The output is 1 if the current value is 1 and the  \n"
+"previous 0, or if the current value is 0 and the  \n"
+"previous 1\n"
+msgstr ""
+
+#: translation.js:154
+msgid "In any other case the output is 0"
+msgstr ""
+
+#: translation.js:155
+msgid ""
+"When k=0, it works like a wire  \n"
+"(The output is equal to the input)  \n"
+"When k=1, it act as a not gate\n"
+"(The output is the inverse of the input)"
+msgstr ""
+
+#: translation.js:156
+msgid ""
+"### Truth table for XOR\n"
+"\n"
+"| k | input | output | function |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | wire     |\n"
+"| 0 | 1     |  1     | wire     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+msgstr ""
+
+#: translation.js:157
+msgid "Output: 0,1,2,...,hffffff"
+msgstr ""
+
+#: translation.js:158
+msgid "Inputs: 1,2,...,h1000000"
+msgstr ""
+
+#: translation.js:159
+msgid "A"
+msgstr ""
+
+#: translation.js:160
+msgid "B"
+msgstr ""
+
+#: translation.js:161
+msgid "Mux 2-1"
+msgstr ""
+
+#: translation.js:162
+msgid ""
+"D Flip-flip\n"
+"(System)"
+msgstr ""
+
+#: translation.js:163
+msgid "Priority for the set"
+msgstr ""
