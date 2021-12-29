@@ -339,6 +339,22 @@
             "width": 256,
             "height": 56
           }
+        },
+        {
+          "id": "65f463c9-91d8-4a92-aafa-fa050e5fc32b",
+          "type": "basic.info",
+          "data": {
+            "info": "# Alhambra-II: LEDs and Buttons test\n\nTesting the LEDs and buttons",
+            "readonly": true
+          },
+          "position": {
+            "x": 80,
+            "y": -304
+          },
+          "size": {
+            "width": 568,
+            "height": 80
+          }
         }
       ],
       "wires": [
