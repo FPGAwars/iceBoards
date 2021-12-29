@@ -1,0 +1,22 @@
+{
+  "name": "iceboards",
+  "version": "0.1.0",
+  "description": "Blocks and examples for the diferent FPGA boards ",
+  "header": "",
+  "footer": "https://github.com/FPGAwars/icestudio-wiki/raw/main/Logos/fgpawars-banner.svg",
+  "wiki": "https://github.com/FPGAwars/iceBoards/wiki",
+  "keywords": ["boards","examples","tests"],
+  "license": "LGPL-3.0",
+  "authors": [{
+    "name": "Juan Gonzalez-Gomez (Obijuan)",
+    "email": "",
+    "url": "https://github.com/Obijuan"
+  }],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "branch": "main",
+    "url": "https://github.com/FPGAwars/iceBoards"
+  }
+}
+
