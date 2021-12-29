@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-07 20:37+0100\n"
+"POT-Creation-Date: 2021-12-29 17:24+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,4 +14,90 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
+#: translation.js:10
+msgid "Alhambra-II"
+msgstr "Alhambra-II"
 
+#: translation.js:11 translation.js:31
+msgid "01-LEDs-buttons"
+msgstr "01-LEDs-buttons"
+
+#: translation.js:12
+msgid "Constant bit 1"
+msgstr "Bit 1 constante"
+
+#: translation.js:13
+msgid "NOT gate (Verilog implementation)"
+msgstr "Puerta NOT (Implementacion en Verilog)"
+
+#: translation.js:14
+msgid "Constant bit 0"
+msgstr "Bit 0 constante"
+
+#: translation.js:15
+msgid "Generic: 4-bits generic constant (0-15)"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:16
+msgid "2-to-1 Multplexer (4-bit channels)"
+msgstr "Multiplexor de 2 a 1 (canales de 4 bits)"
+
+#: translation.js:17
+msgid "2-to-1 Multplexer (1-bit channels)"
+msgstr "Multiplexor de 2 a 1 (canales de 1 bit)"
+
+#: translation.js:18
+msgid "OR2: Two bits input OR gate"
+msgstr "OR2: Puerta OR de 2 entradas de 1 bit"
+
+#: translation.js:19
+msgid "Two bits input And gate"
+msgstr "Puerta AND de dos bits de entrada"
+
+#: translation.js:20
+msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:21
+msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:22
+msgid "### Turn on LED7"
+msgstr "### Encender LED7"
+
+#: translation.js:23
+msgid "### Change LEDs 5 and 6 when pressing sw1 button"
+msgstr "### Cambiar los LEDs 5 y 6 cuando se pulsa el botón sw1"
+
+#: translation.js:24
+msgid "### Turn off LED4"
+msgstr "### Apagar LED4"
+
+#: translation.js:25
+msgid "### Display two constants on 4 LEDs"
+msgstr "### Mostrar dos constantes en los 4 LEDs"
+
+#: translation.js:26
+msgid ""
+"Press for displaying the  \n"
+"other constant on the LEDs"
+msgstr ""
+"Apretar para mostrar la  \n"
+"otra constante en los LEDs"
+
+#: translation.js:27
+msgid "Input"
+msgstr "Entrada"
+
+#: translation.js:28
+msgid "Output"
+msgstr "Salida"
+
+#: translation.js:29
+msgid "Channel A"
+msgstr "Canal A"
+
+#: translation.js:30
+msgid "Channel B"
+msgstr "Canal B"
