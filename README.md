@@ -33,6 +33,7 @@ For installing and using this colection in Icestudio follow these steps:
 ## Examples
 * **Alhambra-II**
   * 01-LEDs-buttons
+  * 02-jumping-LED
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
