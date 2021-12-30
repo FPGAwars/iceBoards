@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-29 19:23+0100\n"
+"POT-Creation-Date: 2021-12-30 11:49+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:11 translation.js:164
+#: translation.js:11 translation.js:250
 msgid "01-LEDs-buttons"
 msgstr "01-LEDs-buttons"
 
@@ -109,7 +109,7 @@ msgstr "Canal A"
 msgid "Channel B"
 msgstr "Canal B"
 
-#: translation.js:32 translation.js:165
+#: translation.js:32 translation.js:251
 msgid "02-jumping-LED"
 msgstr ""
 
@@ -781,4 +781,444 @@ msgstr ""
 
 #: translation.js:163
 msgid "Priority for the set"
+msgstr ""
+
+#: translation.js:164 translation.js:252
+msgid "03-riscv-stop-watch"
+msgstr ""
+
+#: translation.js:165
+msgid "Generic component with clk input"
+msgstr ""
+
+#: translation.js:166
+msgid "RV32I"
+msgstr ""
+
+#: translation.js:167
+msgid "32bits constant value: 0"
+msgstr ""
+
+#: translation.js:168
+#, fuzzy
+#| msgid "Generic: 4-bits generic constant (0-15)"
+msgid "Generic: 32-bits generic constant"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:169
+msgid "Smem 1kx32: Synchronous memory: 1024 words of 32 bits"
+msgstr ""
+
+#: translation.js:170
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus32-Split-22-10: Split the 32-bits bus into two buses of 22 and 10 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:171
+msgid ""
+"SR1-32bits: Shift  a 32-bit value one bit right. MSB is filled with the "
+"input  in"
+msgstr ""
+
+#: translation.js:172
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus32-Split-31-1: Split the 32-bits bus into two buses of 31 and 1 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:173
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:174
+msgid "Componente genérico"
+msgstr ""
+
+#: translation.js:175
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus3-Split-all: Split the 3-bits bus into three wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:176
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus32-Split-17-15: Split the 32-bits bus into two buses of 17 and 15 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:177
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus15-Split-7-8: Split the 15-bits bus into two buses of 7 and 8 bits"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:178
+msgid "Comp2-5bit: Comparator of two 5-bit numbers"
+msgstr ""
+
+#: translation.js:179
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus5-Split-1-4: Split the 5-bits bus into two buses of 1 and 4 bits"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:180
+msgid "5bits constant value: 0"
+msgstr ""
+
+#: translation.js:181
+#, fuzzy
+#| msgid "Generic: 4-bits generic constant (0-15)"
+msgid "Generic: 5-bits generic constant (0-31)"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:182
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid ""
+"Bus32-Split-29-3: Split the 29-bits bus into two buses of 29 and 3 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:183
+msgid "OR-BUS4: OR gate with 4-bits bus input"
+msgstr ""
+
+#: translation.js:184
+#, fuzzy
+#| msgid "OR2: Two bits input OR gate"
+msgid "OR4: Four bits input OR gate"
+msgstr "OR2: Puerta OR de 2 entradas de 1 bit"
+
+#: translation.js:185
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:186
+#, fuzzy
+#| msgid "2-to-1 Multplexer (4-bit channels)"
+msgid "2-to-1 Multplexer (32-bit channels)"
+msgstr "Multiplexor de 2 a 1 (canales de 4 bits)"
+
+#: translation.js:187
+#, fuzzy
+#| msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
+msgid "Bus32-Join-quarter: Join the four buses into an 32-bits Bus"
+msgstr "Bus16-Join-quarter: Agrupar los 4 buses iguales en uno de 16-bits"
+
+#: translation.js:188
+msgid "start-5-bit: 32 cycles width pulse"
+msgstr ""
+
+#: translation.js:189
+msgid "5-bits Syscounter with reset"
+msgstr ""
+
+#: translation.js:190
+msgid "DFF-rst-x05: Five D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:191
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus5-Join-1-4: Join the two buses of 1 and 4 bits into a 5-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:192
+msgid "Inc1-5bit: Increment a 5-bits number by one"
+msgstr ""
+
+#: translation.js:193
+msgid "AdderK-5bit: Adder of 5-bit operand and 5-bit constant"
+msgstr ""
+
+#: translation.js:194
+msgid "Adder-5bits: Adder of two operands of 5 bits"
+msgstr ""
+
+#: translation.js:195
+msgid ""
+"AND-Busen-5: Enable a 5-bits bus. When the enable signal is 0, the output is "
+"0"
+msgstr ""
+
+#: translation.js:196
+#, fuzzy
+#| msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgid "Bus5-Split-all: Split the 5-bits bus into its wires"
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en todos sus cables"
+
+#: translation.js:197
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus5-Join-all: Join all the wires into a 5-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:198
+msgid "UINT8-2bits:  Extend a 2-bits unsigned integer to 8-bits "
+msgstr ""
+
+#: translation.js:199
+#, fuzzy
+#| msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgid "Bus8-Join-6-2: Join the two buses into an 8-bits Bus"
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4 bits"
+
+#: translation.js:200
+msgid "6bits constant value: 0"
+msgstr ""
+
+#: translation.js:201
+#, fuzzy
+#| msgid "Generic: 4-bits generic constant (0-15)"
+msgid "Generic: 6-bits generic constant (0-63)"
+msgstr "Generic: Constante genérica de 4-bits (0-15)"
+
+#: translation.js:202
+msgid "Configurable buttons (pull-up on/off. Not on/off)"
+msgstr ""
+
+#: translation.js:203
+msgid "Separador de bus de 2-bits en dos cables"
+msgstr ""
+
+#: translation.js:204
+msgid "Agregador de 2 cables en un bus de 2-bits"
+msgstr ""
+
+#: translation.js:205
+msgid ""
+"Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
+"Por defecto vale 0"
+msgstr ""
+
+#: translation.js:206
+msgid "Puerta XOR"
+msgstr ""
+
+#: translation.js:207
+msgid "Contador módulo M, ascendente, de 16 bits, con reset "
+msgstr ""
+
+#: translation.js:208
+msgid ""
+"Biestable de datos (Tipo D). Cuando se recibe un tic por load se captura el "
+"dato"
+msgstr ""
+
+#: translation.js:209
+msgid "## LEDs"
+msgstr ""
+
+#: translation.js:210
+msgid "## Alhambra-II: RISC-V stopwatch on LEDs"
+msgstr ""
+
+#: translation.js:211
+msgid "RISC-V computer"
+msgstr ""
+
+#: translation.js:212
+msgid ""
+"## Buttons\n"
+"* SW1: Stop/Start  \n"
+"* SW2: Reset"
+msgstr ""
+
+#: translation.js:213
+msgid ""
+"Extend the 2-bit number to  \n"
+"8 bits (adding leading 0s)"
+msgstr ""
+
+#: translation.js:214
+msgid ""
+"Mapa de Memoria\n"
+"\n"
+"| Dir     | Recurso |\n"
+"|-------- |---------|\n"
+"| 0x7F00  | Puerto de salida  |\n"
+"| 0x7F04  | Puerto de entrada |\n"
+"| 0x0FFF  | Fin de RAM        |\n"
+"| 0x0000  | Inicio de la RAM  |"
+msgstr ""
+
+#: translation.js:215
+msgid "# Generación del Pulso de Reset\n"
+msgstr ""
+
+#: translation.js:216
+msgid ""
+"El pulso de reset es de lógica negativa\n"
+"\n"
+"```\n"
+"(Reset)             (Estado normal)  \n"
+"            ________________________________  \n"
+"32 ciclos   |  \n"
+"____________|  \n"
+"```"
+msgstr ""
+
+#: translation.js:217
+msgid "# Procesador (RISC-V): RV32I\n"
+msgstr ""
+
+#: translation.js:218
+msgid "Reset"
+msgstr ""
+
+#: translation.js:219
+msgid "Instrucciones y datos"
+msgstr ""
+
+#: translation.js:220
+msgid ""
+"No hay esperas: la memoria y los  \n"
+"puertos funcionan en 1 ciclo"
+msgstr ""
+
+#: translation.js:221
+msgid "Dirección de memoria"
+msgstr ""
+
+#: translation.js:222
+msgid "Datos a escribir"
+msgstr ""
+
+#: translation.js:223
+msgid "Control de escritura  "
+msgstr ""
+
+#: translation.js:224
+msgid "# Memoria de instrucciones\n"
+msgstr ""
+
+#: translation.js:225
+msgid "Instrucción"
+msgstr ""
+
+#: translation.js:226
+msgid "# Puerto de SALIDA\n"
+msgstr ""
+
+#: translation.js:227
+msgid "# Lógica de selección\n"
+msgstr ""
+
+#: translation.js:228
+msgid "Acceso a ROM"
+msgstr ""
+
+#: translation.js:229
+msgid "Puerto de salida"
+msgstr ""
+
+#: translation.js:230
+msgid "Puerto de entrada"
+msgstr ""
+
+#: translation.js:231
+msgid "# Bus de entrada al procesador\n"
+msgstr ""
+
+#: translation.js:232
+msgid "# Puerto de entrada\n"
+msgstr ""
+
+#: translation.js:233
+msgid "**FEMTORV**"
+msgstr ""
+
+#: translation.js:234
+msgid "Dirección de byte"
+msgstr ""
+
+#: translation.js:235
+msgid ""
+"Descartar los 2 bits de menor  \n"
+"peso de la direccion"
+msgstr ""
+
+#: translation.js:236
+msgid "Direccion de palabra"
+msgstr ""
+
+#: translation.js:237
+msgid ""
+"Es memoria ROM:  \n"
+"Sólo leemos"
+msgstr ""
+
+#: translation.js:238
+msgid "No usados"
+msgstr ""
+
+#: translation.js:239
+msgid ""
+"15 bits de menor peso de  \n"
+"la direccion"
+msgstr ""
+
+#: translation.js:240
+msgid ""
+"Bits a14-a10  \n"
+"a 0"
+msgstr ""
+
+#: translation.js:241
+msgid ""
+"Bits a14-a10  \n"
+"a 1"
+msgstr ""
+
+#: translation.js:242
+msgid ""
+"Bit a2:\n"
+"  * a2=1: Botones\n"
+"  * a2=0: Leds"
+msgstr ""
+
+#: translation.js:243
+msgid ""
+"## Logica Seleccion de bloque\n"
+"\n"
+"Acceso a Memoria ROM o  \n"
+"acceso a puertos IO"
+msgstr ""
+
+#: translation.js:244
+msgid ""
+"## Logica Seleccion de Puerto IO\n"
+"\n"
+"Acceso a Puerto entrada (botones) o  \n"
+"acceso a puerto salida (LEDs)\n"
+msgstr ""
+
+#: translation.js:245
+msgid "Current cycle"
+msgstr ""
+
+#: translation.js:246
+msgid "Enable input"
+msgstr ""
+
+#: translation.js:247
+msgid "Bus input"
+msgstr ""
+
+#: translation.js:248
+#, fuzzy
+#| msgid "Output"
+msgid "Bus output"
+msgstr "Salida"
+
+#: translation.js:249
+msgid "**Parámetro**: Módulo del contador"
 msgstr ""
