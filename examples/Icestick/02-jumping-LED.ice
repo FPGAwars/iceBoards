@@ -1671,7 +1671,7 @@
           "id": "50825a8f-45a3-4c36-a592-302ba61f427d",
           "type": "basic.info",
           "data": {
-            "info": "# Icestick: JUMPING LED\n\nWhen the button is pressed a particle moves up and down,   \nsimulating a jump (with gravity). The particle is shown  \non the LEDs",
+            "info": "# Icestick: JUMPING LED\n\nEvery 2 seconds a particle is moved up and down,   \nsimulating a jump (with gravity). The particle is shown  \non the LEDs",
             "readonly": true
           },
           "position": {
@@ -1736,8 +1736,7 @@
         {
           "source": {
             "block": "8b8a9a27-d4b7-406d-b3c2-1b348385988a",
-            "port": "2ddab80c-3bef-45cf-93ae-9a43ab7067c5",
-            "size": 8
+            "port": "2ddab80c-3bef-45cf-93ae-9a43ab7067c5"
           },
           "target": {
             "block": "b2081b1a-482c-457a-a0e5-c5bdd031bf32",
@@ -1752,16 +1751,14 @@
           },
           "target": {
             "block": "cfeb1ec6-f09b-4b67-a92e-2731b38eca99",
-            "port": "f96fa616-e49a-4bb8-b1d0-ddafcc56569e",
-            "size": 8
+            "port": "f96fa616-e49a-4bb8-b1d0-ddafcc56569e"
           },
           "size": 8
         },
         {
           "source": {
             "block": "c698f7c4-5cfd-4e6c-9386-5b2be7b164b4",
-            "port": "dc2d9a2c-9ee9-4985-a678-d88c89fd8b74",
-            "size": 8
+            "port": "dc2d9a2c-9ee9-4985-a678-d88c89fd8b74"
           },
           "target": {
             "block": "9547e333-6942-4ed4-beaf-777c43e589a3",
@@ -1776,8 +1773,7 @@
           },
           "target": {
             "block": "8b8a9a27-d4b7-406d-b3c2-1b348385988a",
-            "port": "068619e3-63e0-40f4-9146-b5e6ec447362",
-            "size": 8
+            "port": "068619e3-63e0-40f4-9146-b5e6ec447362"
           },
           "size": 8
         },
@@ -1798,8 +1794,7 @@
           },
           "target": {
             "block": "c698f7c4-5cfd-4e6c-9386-5b2be7b164b4",
-            "port": "b4b08c4b-8eb1-4cd3-a1bf-a45bf7177ed3",
-            "size": 8
+            "port": "b4b08c4b-8eb1-4cd3-a1bf-a45bf7177ed3"
           },
           "vertices": [],
           "size": 8
@@ -1807,8 +1802,7 @@
         {
           "source": {
             "block": "a4ab1379-ffab-4a45-949b-dbc9d3c09367",
-            "port": "d3e4f800-c611-4f65-88e7-8b7d2def0021",
-            "size": 8
+            "port": "d3e4f800-c611-4f65-88e7-8b7d2def0021"
           },
           "target": {
             "block": "4fe3fbff-c51c-424e-a4cd-40b08ca9cdcd",
@@ -1819,8 +1813,7 @@
         {
           "source": {
             "block": "1dbecac2-c2bd-43df-a945-704d10fde2e0",
-            "port": "dc2d9a2c-9ee9-4985-a678-d88c89fd8b74",
-            "size": 8
+            "port": "dc2d9a2c-9ee9-4985-a678-d88c89fd8b74"
           },
           "target": {
             "block": "de6bd0ec-1152-419a-b895-a71755ce6e88",
@@ -1836,8 +1829,7 @@
           },
           "target": {
             "block": "e1375eb0-662f-4a74-bb05-ceb853f836d5",
-            "port": "e045f285-627f-42f7-b073-faa36ef6d420",
-            "size": 8
+            "port": "e045f285-627f-42f7-b073-faa36ef6d420"
           },
           "size": 8
         },
@@ -1874,8 +1866,7 @@
         {
           "source": {
             "block": "d2a1eb4a-9a02-45a1-91d0-b8d18c21bd30",
-            "port": "d3e4f800-c611-4f65-88e7-8b7d2def0021",
-            "size": 8
+            "port": "d3e4f800-c611-4f65-88e7-8b7d2def0021"
           },
           "target": {
             "block": "e5b100b9-0488-465e-a81c-9e84aa7e21bc",
@@ -1900,8 +1891,7 @@
           },
           "target": {
             "block": "1dbecac2-c2bd-43df-a945-704d10fde2e0",
-            "port": "b4b08c4b-8eb1-4cd3-a1bf-a45bf7177ed3",
-            "size": 8
+            "port": "b4b08c4b-8eb1-4cd3-a1bf-a45bf7177ed3"
           },
           "size": 8
         },
@@ -1912,8 +1902,7 @@
           },
           "target": {
             "block": "ec5c682f-5e3c-4e45-931b-2741b32292c6",
-            "port": "f96fa616-e49a-4bb8-b1d0-ddafcc56569e",
-            "size": 8
+            "port": "f96fa616-e49a-4bb8-b1d0-ddafcc56569e"
           },
           "size": 8
         },
@@ -1924,8 +1913,7 @@
           },
           "target": {
             "block": "0a981c95-7f22-48bd-93ce-88a2c30d407a",
-            "port": "ab9bcc04-115a-4689-8d9c-b191681a3dde",
-            "size": 8
+            "port": "ab9bcc04-115a-4689-8d9c-b191681a3dde"
           },
           "size": 8
         },

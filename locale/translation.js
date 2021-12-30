@@ -262,7 +262,7 @@ gettext('1Hz Signal');
 gettext('02-jumping-LED');
 gettext('start: Start signal: It goes from 1 to 0 when the system clock starts. 1 cycle pulse witch');
 gettext('Temporizador en segundos. La señal p está activa durante el tiempo indicado. Por tic se emite un tic al finalizar');
-gettext('# Icestick: JUMPING LED\n\nWhen the button is pressed a particle moves up and down,   \nsimulating a jump (with gravity). The particle is shown  \non the LEDs');
+gettext('# Icestick: JUMPING LED\n\nEvery 2 seconds a particle is moved up and down,   \nsimulating a jump (with gravity). The particle is shown  \non the LEDs');
 gettext('Initial value: 1');
 gettext('Initial value: 0');
 gettext('Falling edge');
