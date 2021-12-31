@@ -35,6 +35,10 @@ For installing and using this colection in Icestudio follow these steps:
   * 01-LEDs-buttons
   * 02-jumping-LED
   * 03-riscv-stop-watch
+* **ICE40-Breakout-Board**
+  * 01-LEDs
+  * 02-jumping-LED
+  * 03-riscv-stop-watch
 * **Icestick**
   * 01-LEDs
   * 02-jumping-LED
@@ -43,6 +47,9 @@ For installing and using this colection in Icestudio follow these steps:
   * 01-LEDs-buttons
   * 02-jumping-LED
   * 03-riscv-stop-watch
+* **NandLand-Go-Board**
+  * 01-LEDs-buttons
+  * 02-jumping-LED
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
