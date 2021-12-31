@@ -27,7 +27,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/12) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/11) |
 
 
 ## Examples
@@ -35,6 +35,9 @@ For installing and using this colection in Icestudio follow these steps:
   * 01-LEDs-buttons
   * 02-jumping-LED
   * 03-riscv-stop-watch
+* **BlackIce**
+  * 01-LEDs-buttons
+  * 02-jumping-LED
 * **ICE40-Breakout-Board**
   * 01-LEDs
   * 02-jumping-LED

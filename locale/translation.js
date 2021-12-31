@@ -8,6 +8,7 @@
 // 2. Press "Update" to update from sources
 
 gettext('Alhambra-II');
+gettext('BlackIce');
 gettext('ICE40-Breakout-Board');
 gettext('Icestick');
 gettext('Icezum-Alhambra');
@@ -254,6 +255,16 @@ gettext('**Parámetro**: Módulo del contador');
 gettext('01-LEDs-buttons');
 gettext('02-jumping-LED');
 gettext('03-riscv-stop-watch');
+gettext('01-LEDs-buttons');
+gettext('not-x2: 2-bits not gate');
+gettext('Bus2-Split-all: Split the 2-bits bus into two wires');
+gettext('Bus2-Join-all: Joint two wires into a 2-bits Bus');
+gettext('# BlackIce: LEDs and Buttons test\n\nTesting the LEDs and buttons');
+gettext('Testing buttons SW1 and SW2 on LEDs 1 and 2 (Positive logics) and LEDs 3 y 4 (Negative logics)');
+gettext('02-jumping-LED');
+gettext('# BlackIce: JUMPING LED\n\nWhen the button is pressed a particle moves up and down,   \nsimulating a jump (with gravity). The particle is shown  \non the LEDs');
+gettext('01-LEDs-buttons');
+gettext('02-jumping-LED');
 gettext('01-LEDs');
 gettext('Counter-x01: 1-bit counter');
 gettext('### Turn on LEDs 7, 6 and 5');
@@ -302,9 +313,6 @@ gettext('01-LEDs-buttons');
 gettext('02-jumping-LED');
 gettext('03-riscv-stop-watch');
 gettext('01-LEDs-buttons');
-gettext('not-x2: 2-bits not gate');
-gettext('Bus2-Split-all: Split the 2-bits bus into two wires');
-gettext('Bus2-Join-all: Joint two wires into a 2-bits Bus');
 gettext('### Testing buttons SW1 and SW2 on LEDs 1 and 2 (Positive logics)');
 gettext('# Nandland Go Board: LEDs and Buttons test\n\nThe state of the buttons is shown on the LED');
 gettext('### Testing buttons SW3 and SW4 on LEDs 3 and 4 (Negative logic)');
