@@ -68,6 +68,10 @@ For installing and using this colection in Icestudio follow these steps:
 * **NandLand-Go-Board**
   * 01-LEDs-buttons
   * 02-jumping-LED
+* **Radiona-ULX3S-12F**
+  * 01-LEDs-buttons
+  * 02-jumping-LED
+  * 03-riscv-stop-watch
 * **TinyFPGA-BX**
   * 01-LED-ON
   * 02-jumping-LED
