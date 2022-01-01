@@ -59,6 +59,8 @@ For installing and using this colection in Icestudio follow these steps:
   * 02-jumping-LED
 * **TinyFPGA-BX**
   * 01-LED-ON
+  * 02-jumping-LED
+  * 03-riscv-stop-watch
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
