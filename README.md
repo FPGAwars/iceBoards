@@ -38,6 +38,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **BlackIce**
   * 01-LEDs-buttons
   * 02-jumping-LED
+* **Fomu**
+  * 01-LEDs-buttons
+  * 02-jumping-LED
 * **ICE40-Breakout-Board**
   * 01-LEDs
   * 02-jumping-LED
