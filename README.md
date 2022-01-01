@@ -57,6 +57,10 @@ For installing and using this colection in Icestudio follow these steps:
   * 01-LEDs
   * 02-jumping-LED
   * 03-riscv-stop-watch
+* **Icesugar-1.5**
+  * 01-LEDs-buttons
+  * 02-jumping-LED
+  * 03-riscv-stop-watch
 * **Icezum-Alhambra**
   * 01-LEDs-buttons
   * 02-jumping-LED
