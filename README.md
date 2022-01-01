@@ -42,6 +42,10 @@ For installing and using this colection in Icestudio follow these steps:
   * 01-LEDs
   * 02-jumping-LED
   * 03-riscv-stop-watch
+* **ICE40UP-Breakout-board**
+  * 01-LEDs-buttons
+  * 02-jumping-LED
+  * 03-riscv-stop-watch
 * **Icebreaker**
   * 01-LEDs-buttons
   * 02-jumping-LED
